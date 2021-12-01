@@ -107,10 +107,13 @@ class _IndexPageState extends State<IndexPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     SizedBox(
-                        width: MediaQuery.of(context).size.width - 150,
+                        width: MediaQuery.of(context).size.width - 130,
                         child: Text(
                           title,
-                          style: TextStyle(fontSize: 17),
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
                         )),
                     SizedBox(
                       height: 10,
